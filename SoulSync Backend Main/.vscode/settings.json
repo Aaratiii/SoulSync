@@ -1,0 +1,15 @@
+{
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniforge/base/envs/soulsync/bin/python",
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.autoImportCompletions": true,
+  "black-formatter.interpreter": [
+    "/opt/homebrew/Caskroom/miniforge/base/envs/soulsync/bin/python"
+  ],
+  "isort.interpreter": [
+    "/opt/homebrew/Caskroom/miniforge/base/envs/soulsync/bin/python"
+  ],
+  "mypy-type-checker.interpreter": [
+    "/opt/homebrew/Caskroom/miniforge/base/envs/soulsync/bin/python"
+  ],
+  "editor.tabSize": 4
+}

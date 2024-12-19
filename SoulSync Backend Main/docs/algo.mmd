@@ -1,0 +1,14 @@
+graph TD
+    A[Start] --> B{User has preferences?}
+    B -- Yes --> C[Create user profile]
+    B -- No --> D[Get popular items]
+    C --> E[Filter items by media type]
+    E --> F[Calculate similarity in batches]
+    F --> G[Select top similar items]
+    G --> H{Apply diversity?}
+    H -- Yes --> I[Introduce diversity]
+    H -- No --> J[Use top items]
+    I --> K[Create final recommendation list]
+    J --> K
+    D --> K
+    K --> L[End]

@@ -1,0 +1,12 @@
+mongodb-data
+redis-data
+.conda_config
+.env
+github
+data
+backup
+__pycache__
+.DS_Store
+vectors
+**/*.log
+**/*.dat
